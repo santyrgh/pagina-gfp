@@ -21,6 +21,15 @@ $routes->set404Override();
 // Set `$autoRoutesImproved` to true in `app/Config/Feature.php` and set the following to true.
  $routes->setAutoRoute(true);
 
+ 
+
+// peticiones de otras paginas
+$routes->get('funciones', 'home::funciones');
+$routes->get('manual_usuario', 'home::manual_usuario');
+$routes->get('manual_tecnico', 'home::manual_tecnico');
+$routes->get('framework', 'home::framework');
+$routes->get('metodologia', 'home::metodologia');
+
 /*
  * --------------------------------------------------------------------
  * Route Definitions
