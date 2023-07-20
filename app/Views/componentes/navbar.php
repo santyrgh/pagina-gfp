@@ -23,7 +23,7 @@
             <li class="list__item">
                 <div class="list__button">
                     <img src="icons/inicio.png" class="list__img" >
-                    <a href="#" class="nav__link">Incio</a>
+                    <a href="<?= base_url('index')?>" class="nav__link">Incio</a>
                 </div>       
             </li>
                     <!--------------------opcion 2 --------------------------->
@@ -74,7 +74,8 @@
                     <li class="list__item">
                 <div class="list__button">
                     <img src="icons/funciones.png" class="list__img" >
-                    <a href="#" class="nav__link">Funciones</a>
+                    <a href="<?= base_url('funciones')?>" class="nav__link">Funciones</a>
+                    
                 </div>       
             </li>
 

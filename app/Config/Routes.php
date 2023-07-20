@@ -24,11 +24,8 @@ $routes->set404Override();
  
 
 // peticiones de otras paginas
-$routes->get('funciones', 'home::funciones');
-$routes->get('manual_usuario', 'home::manual_usuario');
-$routes->get('manual_tecnico', 'home::manual_tecnico');
-$routes->get('framework', 'home::framework');
-$routes->get('metodologia', 'home::metodologia');
+
+
 
 /*
  * --------------------------------------------------------------------
@@ -39,6 +36,13 @@ $routes->get('metodologia', 'home::metodologia');
 // We get a performance increase by specifying the default
 // route since we don't have to scan directories.
 $routes->get('/', 'Home::index');
+$routes->get('index', 'Home::index');
+
+$routes->get('funciones', 'Home::funciones');
+$routes->get('manual_usuario', 'Home::manual_usuario');
+$routes->get('manual_tecnico', 'Home::manual_tecnico');
+$routes->get('framework', 'Home::framework');
+$routes->get('metodologia', 'Home::metodologia');
 
 /*
  * --------------------------------------------------------------------
