@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="<?= base_url('public/css/componentes/navbar.css') ?>">
     <script src="<?= base_url('bootstrap/bootstrap.min.js') ?>"></script>
+    <link rel="stylesheet" href="<?= base_url('css/componentes/navbar.css') ?>">
 
 
     <title>navbar</title>
@@ -74,7 +74,7 @@
                     <li class="list__item">
                 <div class="list__button">
                     <img src="icons/funciones.png" class="list__img" >
-                    <a href="<?= base_url('funciones')?>" class="nav__link">Funciones</a>
+                    <a href="<?= base_url('/funciones')?>" class="nav__link">Funciones</a>
                     
                 </div>       
             </li>
