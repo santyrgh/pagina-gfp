@@ -1,7 +1,4 @@
-        <!-- navbar -->
-        <div class="navbar__container">
-            <?= view('componentes/navbar')?>
-        </div>
+    
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -13,15 +10,27 @@
     <title>documentacion</title>
 </head>
 <body>
-    <div class="title">
-      <h1>Gestor Financiero Personal</h1>  
+<div class="contenedor">
+        <div class="prin">
+            <!-- navbar -->
+            <div class="navbar__container">
+                <?= view('componentes/navbar')?>
+            </div>
+            <!-- contenido -->
+            <div class="title">
+                pagina principal
+            </div>
+                
+        </div>
+
+        <!-- footer -->
+        <div class="footer_container">
+            <?= view('componentes/footer')?>
+        </div>
     </div>
     
 </body>
 </html>
 
 
-        <!-- footer -->
-        <div class="navbar__container">
-            <?= view('componentes/footer')?>
-        </div>
+     
