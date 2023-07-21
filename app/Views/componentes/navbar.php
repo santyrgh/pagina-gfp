@@ -36,10 +36,11 @@
                 </div> 
                 <ul class="list__show">
                      <li class="list__inside">
-                        <a href="#" class="nav__link nav__link--inside">Manual De Usuario</a>
+                        <a 
+                        href="<?= base_url('manual_usuario')?>" class="nav__link nav__link--inside">Manual De Usuario</a>
                      </li>
                      <li class="list__inside">
-                        <a href="#" class="nav__link nav__link--inside">Manual Técnico</a>
+                        <a  href="<?= base_url('manual_tecnico')?>" class="nav__link nav__link--inside">Manual Técnico</a>
                      </li>
                      
                 </ul>   
@@ -49,7 +50,7 @@
             <li class="list__item">
                 <div class="list__button">
                     <img src="icons/c.png" class="list__img" >
-                    <a href="#" class="nav__link">Equipo De Trabajo</a>
+                    <a href="<?= base_url('equipo_trabajo')?>" class="nav__link">Equipo De Trabajo</a>
                 </div>       
             </li>
                      <!-------------- opcion 4 --------------------------------->
@@ -62,10 +63,10 @@
                 </div> 
                 <ul class="list__show">
                      <li class="list__inside">
-                        <a href="#" class="nav__link nav__link--inside">Metodologia</a>
+                        <a href="<?= base_url('metodologia')?>" class="nav__link nav__link--inside">Metodologia</a>
                      </li>
                      <li class="list__inside">
-                        <a href="#" class="nav__link nav__link--inside">Marco de trabajo</a>
+                        <a href="<?= base_url('framework')?>" class="nav__link nav__link--inside">Marco de trabajo</a>
                      </li>
                 </ul>   
             </li>

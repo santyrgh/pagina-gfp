@@ -43,6 +43,7 @@ $routes->get('manual_usuario', 'Home::manual_usuario');
 $routes->get('manual_tecnico', 'Home::manual_tecnico');
 $routes->get('framework', 'Home::framework');
 $routes->get('metodologia', 'Home::metodologia');
+$routes->get('equipo_trabajo', 'Home::equipo_trabajo');
 
 /*
  * --------------------------------------------------------------------

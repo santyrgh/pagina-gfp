@@ -12,14 +12,14 @@ class Home extends BaseController
 // <------------------manual de usuario--------------->
 public function manual_usuario()
  {
-    return view('contenido/manual_usuario');
+    return view('contenido/m_usuario');
     // return view('componentes/navbar');
 
 }
 // <------------------manual tecnico--------------->
 public function manual_tecnico()
  {
-    return view('contenido/manual_tecnico');
+    return view('contenido/m_tecnico');
     // return view('componentes/navbar');
 
 }
@@ -41,6 +41,12 @@ public function manual_tecnico()
   public function metodologia()
   {
      return view('contenido/metodologia');
+     // return view('componentes/navbar');
+
+ }
+ public function equipo_trabajo()
+  {
+     return view('contenido/e_trabajo');
      // return view('componentes/navbar');
 
  }
